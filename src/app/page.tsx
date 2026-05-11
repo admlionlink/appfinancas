@@ -11,6 +11,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { createClient } from "@/lib/supabase/server";
 
+export const dynamic = "force-dynamic";
+
 export default async function LandingPage() {
   const supabase = createClient();
   const {
